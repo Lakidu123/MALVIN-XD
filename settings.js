@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~x85zwTRK#_dvzSHI_Qwwu7f6KcXqkhq34z4ViDElRpIn3g4ui7XI",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~VwRH3ArZ#o0Uv_ctoo-YbY2dchw1KYzVljo5VB8QLZvxYau7Nmy0",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -44,7 +44,7 @@ MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/gld2vo.jpg",
 LIVE_MSG: process.env.LIVE_MSG || "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ v2✦ ғʀᴏᴍ ɴᴇxᴜs ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/kingmalvn/MALVIN-XD",
 // add alive msg here 
 
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
 AUTO_REACT: process.env.AUTO_REACT || "true",
@@ -71,10 +71,10 @@ MODE: process.env.MODE || "public",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
