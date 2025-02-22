@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~VwRH3ArZ#o0Uv_ctoo-YbY2dchw1KYzVljo5VB8QLZvxYau7Nmy0",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~EkJRyYjY#sOCOFYeeQ1c1l3-O9W2MSbSbPGPC8JMWBJGtTfFa3hA",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -56,7 +56,7 @@ UK
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -80,7 +80,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "true",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-HEART_REACT: process.env.HEART_REACT || "false",
+HEART_REACT: process.env.HEART_REACT || "true",
 // make this true or false for heart reactions only 
 
 OWNER_REACT: process.env.OWNER_REACT || "true",
